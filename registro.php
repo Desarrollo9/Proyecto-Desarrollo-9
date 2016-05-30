@@ -3,6 +3,7 @@
 	$nombre=$_POST['nombre'];
 	$cedula=$_POST['cedula'];
 	$edad=$_POST['edad'];
+	$sexo=$_POST['sexo'];
 	$email= $_POST['email'];
 
 
@@ -12,20 +13,11 @@
 
 
 
-				mysql_query("INSERT INTO Expedientes VALUES('','$nombre','$cedula','$edad','$email')");
+				mysql_query("INSERT INTO Expedientes VALUES('','$nombre','$cedula','$edad','$sexo','$email')");
 
 					echo ' <script language="javascript">alert("Se ha registrado con exito");</script> ';
 					mysql_close($link);
 
-
-
-
-
-
-	echo $nombre."<br>";
-	echo $cedula."<br>";
-	echo $edad."<br>";
-	echo $email."<br>";
-
+	echo '<a href="./DatosG.html" title="">Regresar a la página anterior</a>';
 
 ?>

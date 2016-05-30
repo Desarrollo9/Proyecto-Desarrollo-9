@@ -10,15 +10,26 @@
 <body background="bg-1-full.jpg">
 <ul class="navbar">
 <form action="registro.php" method="post">
-Nombre :<input maxlength="25" size="25" name="nombre" />
+Nombre:<input maxlength="25" size="25" name="nombre" />
+<br />
 <br />
 Cedula:<input type="cedula" maxlength="25" size="25" name="cedula" />
 <br />
+<br />
 Edad:<input type="edad" maxlength="25" size="25" name="edad" />
 <br />
+<br>
+<input type="radio" name="sexo" value="Hombre" checked> Hombre
+<br/>
+<br />
+<input type="radio" name="sexo" value="Mujer"> Mujer
+<br>
+<br/>
 Email:<input type="email" maxlength="35" size="25" name="email" />
 <br />
-<input type="submit" value="Registrar" />
+<br>
+<input type="submit" value="Registrar"/>
+<input type="reset" value="Borrar">
 </ul>
 </form>
 </div>
