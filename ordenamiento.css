@@ -2,8 +2,8 @@ body {
   padding-left: 11em;
   font-family: Georgia, "Times New Roman",
         Times, serif;
-  color: yellow;
-  background-image:white; }
+  color: blue;
+  background:lightblue; }
 ul.navbar {
   list-style-type: none;
   padding: 0;
@@ -11,7 +11,7 @@ ul.navbar {
   position: absolute;
   top: 2em;
   left: 1em;
-  width: 9em 
+  width: 9em
   color:white;}
 h1 {
   font-family: Helvetica, Geneva, Arial,
