@@ -1,5 +1,5 @@
 <?php
-	$link =mysql_connect("localhost","root","12345");
+	$link =mysql_connect("localhost","root","");
 	if($link){
 		mysql_select_db("proyecto",$link);
 	}
